@@ -1,0 +1,1 @@
+{"primary": "T4_CONSTRAINT", "ops": ["T4_CONSTRAINT", "T5_INTEGRATE", "T8_EXPLORE", "T1_RECALL"], "why": "A benefit register has a mandatory set of fields, so the solver must recall the standard template, extract relevant program information from the report, and generate missing benefit details to populate it correctly."}

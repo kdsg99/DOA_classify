@@ -1,0 +1,1 @@
+{"type": "F2", "reason": "该任务需要多步编码与哈希计算（Base64、MD5 Digest response）并拼接 Authorization 头部，容易在计算或推导环节出错。", "confidence": 0.9}

@@ -1,0 +1,1 @@
+{"thinking_type": "L1-R", "reason": "直接根据像素数、RGB位数和帧率计算视频数据率，属于短链数值求解。", "confidence": 0.95}

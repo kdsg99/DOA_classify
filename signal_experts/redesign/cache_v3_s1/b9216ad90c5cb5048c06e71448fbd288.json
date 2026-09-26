@@ -1,0 +1,1 @@
+{"type": "R-V", "reason": "需要根据ASCII图案识别出MNIST数字类别，有唯一正确答案，属于推理/判断任务。", "confidence": 0.9}

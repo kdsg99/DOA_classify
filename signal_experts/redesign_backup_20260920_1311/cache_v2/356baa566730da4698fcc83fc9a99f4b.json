@@ -1,0 +1,1 @@
+{"thinking_type": "L1-R", "reason": "直接计算有序且不重复的两人点餐组合，用10×9即可得出答案。", "confidence": null}

@@ -1,0 +1,1 @@
+{"primary": "T5_INTEGRATE", "ops": ["T5_INTEGRATE", "T2_CHAIN"], "why": "需要先整合长达30回合的着法序列以还原棋盘局面，再通过逐步逻辑推演验证唯一能构成将死的着法。"}

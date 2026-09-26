@@ -1,0 +1,1 @@
+{"type": "F1", "reason": "需要准确知道 Eclipse JDT 的 IMethod#getElementName 接口，否则容易编造错误方法或误用 fMethodName 字段。", "confidence": 0.7}

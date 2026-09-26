@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T9_REFRAME"], "why": "需要把对称方程组用 x+y+z 与 xy+yz+zx 等对称量重新表示，再逐步代数消元求得目标值。"}

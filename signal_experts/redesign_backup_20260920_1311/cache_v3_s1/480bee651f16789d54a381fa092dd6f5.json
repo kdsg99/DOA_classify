@@ -1,0 +1,1 @@
+{"type": "K-V", "reason": "任务是根据给定的ASCII图案识别出对应的MNIST数字，答案唯一，依赖对数字形状的识别。", "confidence": 0.8}

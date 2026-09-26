@@ -1,0 +1,1 @@
+{"primary": "T8_EXPLORE", "ops": ["T8_EXPLORE", "T4_CONSTRAINT", "T2_CHAIN"], "why": "The problem is missing and only the target answer 0.25 is given, so the solver must generate a plausible question that fits the story and yields 0.25, which requires exploring possible questions while satisfying the numeric constraint and verifying the arithmetic."}

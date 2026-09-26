@@ -1,0 +1,1 @@
+{"primary": "T5_INTEGRATE", "ops": ["T5_INTEGRATE", "T2_CHAIN", "T6_VERIFY"], "why": "数据分散在多行，需要先合并聚合，再逐步计算统计量，同时最后一行不完整需校验处理。"}

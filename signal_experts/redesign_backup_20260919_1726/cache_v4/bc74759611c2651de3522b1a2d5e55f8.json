@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T9_REFRAME"], "why": "解题者需要将ASCII字符网格在脑中还原为视觉图像，并从记忆中匹配对应的数字原型，从而完成分类。"}

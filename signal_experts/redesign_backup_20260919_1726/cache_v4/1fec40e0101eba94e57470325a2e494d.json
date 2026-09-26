@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT", "T1_RECALL"], "why": "解题者必须根据Basic/Digest认证机制进行多步编码/哈希计算（base64编码、MD5哈希链），同时严格遵守HTTP Authorization头的格式要求，并准确回忆相关认证定义。"}

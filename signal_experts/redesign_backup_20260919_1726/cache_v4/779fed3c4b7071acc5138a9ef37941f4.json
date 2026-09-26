@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "Need to express the sum of three consecutive integers as 3n, then reason that the target must be the smallest positive cube divisible by 3, which is 27."}

@@ -1,0 +1,30 @@
+rows 2801
+dup (strategy,ds,tid) groups: 271  max repeats: 3
+strategy  dataset_id  task_id
+CRITICAL  mt_bench    82         3
+                      83         3
+                      84         3
+                      86         2
+                      88         2
+                      90         2
+                      93         2
+                      94         2
+                      96         2
+                      97         3
+dtype: int64
+
+strategy
+CRITICAL      524
+ENCOURAGE     589
+HEURISTIC     690
+MISLEADING    590
+PRESSURE      408
+dtype: int64
+strategy
+CRITICAL      449
+ENCOURAGE     510
+HEURISTIC     602
+MISLEADING    494
+PRESSURE      357
+dtype: int64
+unique (ds,tid): 683

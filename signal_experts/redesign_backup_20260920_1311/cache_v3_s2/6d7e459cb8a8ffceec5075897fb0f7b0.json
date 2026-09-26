@@ -1,0 +1,1 @@
+{"type": "F1", "reason": "需要准确知道 Eclipse JDT CompletionProposalSorter.beginSorting 的方法签名和默认空实现，属于长尾 API 知识。", "confidence": 0.8}

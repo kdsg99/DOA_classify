@@ -1,0 +1,1 @@
+{"primary": "T3_PLAN", "ops": ["T3_PLAN", "T9_REFRAME", "T4_CONSTRAINT", "T2_CHAIN"], "why": "必须先重写表达式并规划寄存器分配与指令顺序，在寄存器不能改等硬约束下逐步计算依赖造成的周期，才能得到最小周期。"}

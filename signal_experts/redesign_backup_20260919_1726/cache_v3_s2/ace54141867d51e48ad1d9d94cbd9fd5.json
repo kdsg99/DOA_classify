@@ -1,0 +1,1 @@
+{"type": "F4", "reason": "题面用“every third day”和“fewest”诱导忽略起始日与二月长度的错位，容易想当然算错最少步行天数。", "confidence": 0.75}

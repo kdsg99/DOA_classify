@@ -1,0 +1,1 @@
+{"primary": "T5_INTEGRATE", "ops": ["T5_INTEGRATE", "T4_CONSTRAINT", "T1_RECALL"], "why": "需要把自然语言描述与给定的字段信息整合起来，并生成符合 Java 语法及 SpringConfig API 约束的代码，同时需准确调用相关类与方法的定义。"}

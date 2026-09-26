@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "The docstring states the default implementation does nothing, so the solver mainly needs to recall/infer the correct no-op method signature (startSorting) while satisfying Java/API constraints."}

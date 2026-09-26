@@ -1,0 +1,1 @@
+{"type": "F1", "reason": "依赖 LaTeX 棋类绘图包（如 xskak/chessboard）与 FEN 解析的精确知识，易记错或编造包名/命令。", "confidence": 0.85}

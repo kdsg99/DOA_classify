@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "Counting requires multiplying the sequential choices while enforcing the distinctness constraints for letters and digits, so the result must be derived step by step."}

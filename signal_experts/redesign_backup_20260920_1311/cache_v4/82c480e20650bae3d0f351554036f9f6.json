@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "需要按汇率关系逐步换算：先由3 Blinkets=7 Drinkets求出56 Drinkets对应的Blinkets数，再按1 Trinket=4 Blinkets换算成Trinkets。"}

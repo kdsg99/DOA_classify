@@ -1,0 +1,1 @@
+{"type": "F4", "reason": "b 句包含虚构地名与语言，容易诱导模型把 Eldoria/Avalore 误判为国家/首都而胡编。", "confidence": 0.82}

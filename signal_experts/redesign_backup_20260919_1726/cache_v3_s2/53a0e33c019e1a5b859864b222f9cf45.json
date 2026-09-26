@@ -1,0 +1,1 @@
+{"type": "F3", "reason": "需要实现多个字段的 getter/setter 并遵守 JAXB 规则，容易漏掉某些方法或格式不符", "confidence": 0.8}

@@ -1,0 +1,1 @@
+{"type": "F2", "reason": "需要多步计算浓度、由pH求氢离子浓度并用Ka/pKa公式推导，容易算错或跳步。", "confidence": null}

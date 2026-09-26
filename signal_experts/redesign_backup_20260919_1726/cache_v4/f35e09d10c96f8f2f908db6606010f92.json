@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "Must iteratively apply the alternating add/multiply rule step by step until the first term exceeding 125 is reached."}

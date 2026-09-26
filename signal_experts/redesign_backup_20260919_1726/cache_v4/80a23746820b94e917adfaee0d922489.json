@@ -1,0 +1,1 @@
+{"primary": "T5_INTEGRATE", "ops": ["T5_INTEGRATE", "T1_RECALL"], "why": "必须整合病史、生命体征和查体发现识别为病毒性上呼吸道感染，再回忆最常见的病原体（如鼻病毒）。"}

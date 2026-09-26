@@ -1,0 +1,1 @@
+{"primary": "T5_INTEGRATE", "ops": ["T5_INTEGRATE", "T10_PRAGMA"], "why": "需要从长文中提取分散的关键信息，压缩合并后以摘要体裁重新组织表达。"}

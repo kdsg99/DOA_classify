@@ -1,0 +1,1 @@
+{"type": "F3", "reason": "任务明确要求从文本做推断并限制“without paragraphs”，模型易忽略格式或只作总结而漏掉推断要求。", "confidence": 0.6}

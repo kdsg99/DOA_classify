@@ -1,0 +1,1 @@
+{"type": "F4", "reason": "描述与方法名不匹配（描述为 beginSorting 的说明，但需补全 endSorting），易被题面误导写出非空实现。", "confidence": 0.75}

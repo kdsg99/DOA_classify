@@ -1,0 +1,1 @@
+{"type": "F2", "reason": "需要多项求和并取模9，属于多步数字运算，容易算错。", "confidence": null}

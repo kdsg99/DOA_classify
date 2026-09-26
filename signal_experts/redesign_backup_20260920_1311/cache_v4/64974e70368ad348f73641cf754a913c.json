@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "Converting 999 from decimal to base 6 requires carrying out repeated division and remainders step by step to obtain the correct digits."}

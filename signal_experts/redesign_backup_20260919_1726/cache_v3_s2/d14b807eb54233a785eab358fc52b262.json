@@ -1,0 +1,1 @@
+{"type": "F1", "reason": "该任务依赖精确的 Java JSSE/HttpClient API 实现细节，模型容易记错或编造具体代码。", "confidence": null}

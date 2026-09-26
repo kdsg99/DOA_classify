@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "必须分片求解 f(x)=0 和 f(x)=6，逐步解方程并严格按 x≤3 或 x>3 的分支条件筛选有效解。"}

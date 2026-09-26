@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "Need to recognize the 27 consecutive integers are symmetric around their median, so the sum equals 27 times the median, then compute 3^7 / 27."}

@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "必须准确调出 JAXB 列表 getter 的标准写法，并同时满足返回类型、方法名、无 setter、返回 live list 等硬性接口/规则约束。"}

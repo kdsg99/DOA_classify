@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "Need to join departments with degree programs, count degrees per department, compare counts, and return the top department’s name and id."}

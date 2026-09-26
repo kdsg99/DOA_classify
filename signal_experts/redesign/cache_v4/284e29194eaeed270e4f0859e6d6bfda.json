@@ -1,0 +1,1 @@
+{"primary": "T4_CONSTRAINT", "ops": ["T4_CONSTRAINT", "T2_CHAIN"], "why": "必须同时满足邮箱格式、中文字符支持和Matlab正则语法等多条硬性约束，并按局部、@、域名的符号结构逐步构造正则。"}

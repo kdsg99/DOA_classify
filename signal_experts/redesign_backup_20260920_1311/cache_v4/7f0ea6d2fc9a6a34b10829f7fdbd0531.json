@@ -1,0 +1,1 @@
+{"primary": "T9_REFRAME", "ops": ["T9_REFRAME"], "why": "必须把ASCII字符矩阵转换成视觉空间图像，才能识别出手写数字的形状并完成分类。"}

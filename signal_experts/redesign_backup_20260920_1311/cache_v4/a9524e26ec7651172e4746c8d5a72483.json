@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T9_REFRAME"], "why": "You must reconstruct the board from the move list and then step through legal checking moves and all king replies to confirm a checkmate-in-one."}

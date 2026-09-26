@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "The answer requires accurately retrieving all known entities employed by University College London while enforcing the hard exclusion of anyone educated at Balliol College."}

@@ -1,0 +1,1 @@
+{"primary": "T9_REFRAME", "ops": ["T9_REFRAME", "T2_CHAIN"], "why": "必须把求系数和转成求 g(1)，再利用 g(x)=f(x-1) 化为求 f(0) 并计算，否则只能展开硬算。"}

@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "必须先分别计算 Susan 和 Pam 折扣后的总价，再做差，属于逐步数值推导。"}

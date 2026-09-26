@@ -1,0 +1,1 @@
+{"type": "F1", "reason": "该任务依赖 AirSim、Win11、Unreal、pymavlink 与 MAVLink 配置等精确且易过时的领域知识，模型容易漏步骤或编造配置。", "confidence": null}

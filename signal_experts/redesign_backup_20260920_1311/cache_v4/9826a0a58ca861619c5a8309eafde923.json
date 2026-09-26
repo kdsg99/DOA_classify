@@ -1,0 +1,1 @@
+{"primary": "T5_INTEGRATE", "ops": ["T5_INTEGRATE", "T8_EXPLORE", "T4_CONSTRAINT", "T3_PLAN"], "why": "需要把分散的出生盘与行运信息合并权衡，在多项硬性条件下生成并筛选一个最契合的 household lifehack，并规划多步分析。"}

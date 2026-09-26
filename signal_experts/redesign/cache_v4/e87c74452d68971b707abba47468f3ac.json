@@ -1,0 +1,1 @@
+{"primary": "T6_VERIFY", "ops": ["T6_VERIFY"], "why": "题面的 problem 和 instruction 均为 nan，属于输入缺失/异常，解题者必须先识别该错误，否则无法确定任务内容。"}

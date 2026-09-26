@@ -1,0 +1,1 @@
+{"type": "R-V", "reason": "需要按 HTTP Basic/Digest 认证规则进行 Base64 编解码和摘要计算，得到唯一正确的 Authorization 头。", "confidence": 0.95}

@@ -1,0 +1,11 @@
+type,PRESSURE,CRITICAL,ENCOURAGE,MISLEADING,HEURISTIC
+code_format|fmt,33,38,37,39,42
+code_format|free,45,46,47,54,53
+prose_open|fmt,27,30,33,32,34
+prose_open|free,26,28,36,35,35
+quant_math|fmt,1,3,2,3,2
+quant_math|free,28,89,139,115,223
+skill_short|fmt,13,15,13,14,15
+skill_short|free,138,145,149,151,145
+verify_fix|fmt,7,12,12,12,12
+verify_fix|free,90,118,121,135,129

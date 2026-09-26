@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T1_RECALL", "T4_CONSTRAINT"], "why": "需要按步骤构造代码实现，同时准确调用 SpringConfig 及 origami 相关 API，并满足给定的类型与接口约束。"}

@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "必须根据描述逐步推导出构造 about:neterror URI 并启动 Activity 的代码逻辑，同时严格满足给定的字段名、方法签名和 URI 格式等硬性约束。"}

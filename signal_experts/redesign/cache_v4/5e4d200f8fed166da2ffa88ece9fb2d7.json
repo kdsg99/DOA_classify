@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T5_INTEGRATE", "T4_CONSTRAINT"], "why": "必须把 degree_programs 与 departments 关联后按部门统计学位数量，再逐步比较找出最大值，并按要求同时返回部门名称和 id。"}

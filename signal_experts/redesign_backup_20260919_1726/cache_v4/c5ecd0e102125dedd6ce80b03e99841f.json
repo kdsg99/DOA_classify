@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "必须推导出正确的URI构造表达式（使用给定前缀并编码参数），同时满足Java语法与可用API的硬性约束。"}

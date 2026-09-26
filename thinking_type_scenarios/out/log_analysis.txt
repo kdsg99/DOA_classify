@@ -1,0 +1,137 @@
+Per-strategy difficulty trend:  Delta_pp = b0 + b1*plain_pp
+  strategy     b0     b1    R2   n  mean_plain
+  PRESSURE 56.490 -0.847 0.452 408      64.616
+  CRITICAL 68.163 -1.232 0.500 524      72.300
+ ENCOURAGE 61.824 -1.213 0.488 589      74.721
+MISLEADING 56.429 -1.206 0.515 590      73.974
+ HEURISTIC 64.134 -1.348 0.548 690      78.336
+
+=== RAW — value (pp), rows = thinking type, cols = strategy
+strategy                         PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+L1-K  Knowledge Retrieval             3.8      -2.1       -7.4       -10.8      -14.2
+L1-R  Direct Computation              0.6     -48.1      -55.3       -59.5      -68.5
+L1-E  Content Generation              4.6     -22.5      -16.2       -36.7      -23.8
+L1-F  Format Transformation           3.1     -20.8      -77.1       -52.8      -27.1
+L2-K  Knowledge Synthesis             1.8      -6.3       -9.8       -24.3      -15.1
+L2-R  Multi-Step Derivation          -1.4     -30.5      -42.4       -37.2      -56.6
+L2-E  Discourse Organization          8.4      -3.4       -1.1       -14.8       -3.1
+L2-F  Structured Output             -10.0     -14.5      -19.3       -19.4      -29.1
+L3-K  Factual Verification            7.9       9.4       -7.3         1.9      -12.7
+L3-R  Process Control                -0.0      -5.9       -5.1       -15.8      -12.4
+L3-E  Style & Persona Fidelity        3.1       2.0      -10.6       -13.9      -15.5
+L3-F  Constraint Check & Repair      15.8      -6.9      -25.5       -48.1      -14.0
+--- dimension marginals (one type = one vote)
+strategy  PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                         
+L1             3.0     -23.4      -39.0       -39.9      -33.4
+L2            -0.3     -13.7      -18.2       -23.9      -26.0
+L3             6.7      -0.4      -12.1       -19.0      -13.6
+
+strategy  PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                         
+E              5.4      -8.0       -9.3       -21.8      -14.2
+F              3.0     -14.1      -40.6       -40.1      -23.4
+K              4.5       0.3       -8.2       -11.0      -14.0
+R             -0.3     -28.2      -34.3       -37.5      -45.8
+
+strategy   PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                          
+Defensive      -0.5     -15.1      -23.1       -30.3      -24.3
+Offensive       5.7      -4.5        NaN         1.9        NaN
+
+strategy  PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                         
+all            3.1     -12.5      -23.1       -27.6      -24.3
+
+
+=== DIFFICULTY_ADJUSTED — value (pp), rows = thinking type, cols = strategy
+strategy                         PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+L1-K  Knowledge Retrieval             3.4      12.5       13.3        14.3       13.1
+L1-R  Direct Computation              2.4     -12.3      -11.7       -11.1      -10.3
+L1-E  Content Generation              8.6       1.6       12.9        -2.1       14.0
+L1-F  Format Transformation          26.0      23.9      -30.3         1.4       35.1
+L2-K  Knowledge Synthesis            10.3      19.9       22.1        15.8       25.1
+L2-R  Multi-Step Derivation         -15.2     -17.9      -18.4       -12.1      -15.0
+L2-E  Discourse Organization          7.2      12.5       18.6        12.2       24.3
+L2-F  Structured Output              -8.5       4.9        5.8        11.0        6.3
+L3-K  Factual Verification           -3.9      10.9        2.3         7.7       -1.2
+L3-R  Process Control                -0.4       8.5       11.0         7.8       10.4
+L3-E  Style & Persona Fidelity        4.3      17.7       14.4        14.8       15.8
+L3-F  Constraint Check & Repair      16.5      26.1       13.3        -6.2       19.2
+--- dimension marginals (one type = one vote)
+strategy  PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                         
+L1            10.1       6.4       -3.9         0.6       13.0
+L2            -1.5       4.9        7.0         6.8       10.2
+L3             4.1      15.8       10.3         6.0       11.1
+
+strategy  PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                         
+E              6.7      10.6       15.3         8.3       18.0
+F             11.3      18.3       -3.7         2.1       20.2
+K              3.3      14.4       12.6        12.6       12.3
+R             -4.4      -7.3       -6.4        -5.1       -4.9
+
+strategy   PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                          
+Defensive      -2.9       6.8        4.4         4.2       11.4
+Offensive       9.3      15.8        NaN         7.7        NaN
+
+strategy  PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                         
+all            4.2       9.0        4.4         4.5       11.4
+
+
+=== BALANCED — value (pp), rows = thinking type, cols = strategy
+strategy                         PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+L1-K  Knowledge Retrieval             4.9      12.8       12.3        14.7       15.5
+L1-R  Direct Computation              5.2       3.1       12.6         3.8       14.2
+L1-E  Content Generation              7.8       2.2       15.2        -3.6       11.2
+L1-F  Format Transformation          26.0      12.0      -30.3        -2.1       35.1
+L2-K  Knowledge Synthesis             8.6      17.6       18.8        15.1       25.1
+L2-R  Multi-Step Derivation         -10.6     -10.9       -7.8        -3.1        1.3
+L2-E  Discourse Organization          5.8      13.0       20.5        15.4       29.1
+L2-F  Structured Output               0.1       9.8       11.1        16.3       13.5
+L3-K  Factual Verification           -4.8      10.0        3.9         8.7        0.1
+L3-R  Process Control                -0.9       9.3        8.5         8.8       10.7
+L3-E  Style & Persona Fidelity       11.0      25.1        2.1        16.0       22.6
+L3-F  Constraint Check & Repair      11.7      25.1       16.0        -3.4       26.9
+--- dimension marginals (one type = one vote)
+strategy  PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                         
+L1            11.0       7.5        2.5         3.2       19.0
+L2             1.0       7.4       10.7        10.9       17.2
+L3             4.2      17.4        7.6         7.5       15.1
+
+strategy  PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                         
+E              8.2      13.4       12.6         9.3       20.9
+F             12.6      15.6       -1.0         3.6       25.2
+K              2.9      13.5       11.7        12.8       13.5
+R             -2.1       0.5        4.5         3.2        8.7
+
+strategy   PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                          
+Defensive      -0.1      10.5        6.9         7.1       17.1
+Offensive       9.3      11.6        NaN         8.7        NaN
+
+strategy  PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+value                                                         
+all            5.4      10.8        6.9         7.2       17.1
+
+Gain rate (share of rows with Delta>0) per type x strategy:
+strategy                         PRESSURE  CRITICAL  ENCOURAGE  MISLEADING  HEURISTIC
+L1-K  Knowledge Retrieval              60        53         43          34         27
+L1-R  Direct Computation               46        24         18           9         12
+L1-E  Content Generation               52        21         20          10         21
+L1-F  Format Transformation           100        67          0           0          0
+L2-K  Knowledge Synthesis              54        45         32          25         35
+L2-R  Multi-Step Derivation            48        34         27          28         20
+L2-E  Discourse Organization           45        38         41          19         39
+L2-F  Structured Output                38        25         26          24         20
+L3-K  Factual Verification             59        70         39          50         44
+L3-R  Process Control                  40        42         43          25         24
+L3-E  Style & Persona Fidelity         50        48         30          33         24
+L3-F  Constraint Check & Repair        60        33         43          14         14
+
+written: C:\Users\kl001\.nanobot\DOA\thinking_type_scenarios\out

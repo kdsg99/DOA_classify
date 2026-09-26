@@ -1,0 +1,10 @@
+type,PRESSURE,CRITICAL,ENCOURAGE,MISLEADING,HEURISTIC
+code_format|fmt,12.1,5.7,0.5,-7.4,-7.7
+code_format|free,10.0,2.9,-2.3,-3.6,-5.5
+prose_open|fmt,10.2,5.3,0.2,-5.7,-8.6
+prose_open|free,11.7,-0.3,4.3,-6.1,-7.3
+quant_math|free,0.0,0.0,0.0,0.0,0.0
+skill_short|fmt,8.3,0.5,-4.2,-4.8,0.5
+skill_short|free,3.5,3.0,1.4,-6.0,-1.5
+verify_fix|fmt,,9.2,5.7,-7.8,-15.2
+verify_fix|free,9.7,0.7,3.5,-10.5,-2.2

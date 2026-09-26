@@ -1,0 +1,1 @@
+{"thinking_type": "L2-R", "reason": "需按HTTP认证机制逐步计算Base64与MD5摘要并串联得到唯一Authorization头", "confidence": 0.85}

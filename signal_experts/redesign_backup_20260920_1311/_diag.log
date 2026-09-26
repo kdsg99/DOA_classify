@@ -1,0 +1,64 @@
+== CEILING CHECK: if we label by dataset_id ==
+  PRESSURE     KL=0.118  high_by_ds={'chat_flask': 0.129, 'chat_math500': 0.084, 'chat_wild_bench': 0.178, 'llama_flask': 0.203, 'mt_bench': 0.267, 'qwen_flask': 0.139}
+  ENCOURAGE    KL=0.392  high_by_ds={'chat_flask': 0.135, 'chat_math500': 0.047, 'chat_wild_bench': 0.118, 'llama_flask': 0.176, 'mt_bench': 0.324, 'qwen_flask': 0.2}
+  CRITICAL     KL=0.286  high_by_ds={'chat_flask': 0.188, 'chat_math500': 0.047, 'chat_wild_bench': 0.156, 'llama_flask': 0.203, 'mt_bench': 0.266, 'qwen_flask': 0.141}
+  MISLEADING   KL=0.273  high_by_ds={'chat_flask': 0.197, 'chat_math500': 0.061, 'chat_wild_bench': 0.129, 'llama_flask': 0.205, 'mt_bench': 0.235, 'qwen_flask': 0.174}
+  HEURISTIC    KL=0.628  high_by_ds={'chat_flask': 0.16, 'chat_math500': 0.033, 'chat_wild_bench': 0.113, 'llama_flask': 0.193, 'mt_bench': 0.327, 'qwen_flask': 0.173}
+
+== STRATIFIED (within dataset): does thinking_type predict high/low? ==
+   log2( high-rate(type) / base-high-rate(dataset) ) averaged over datasets, per strategy
+  -- PRESSURE
+       L3-K   adj_enrich=+0.42  n=22
+       L1-K   adj_enrich=+0.30  n=45
+       L2-K   adj_enrich=+0.01  n=48
+       L1-E   adj_enrich=-0.05  n=25
+       L2-R   adj_enrich=-0.06  n=82
+       L1-R   adj_enrich=-0.18  n=70
+       L3-E   adj_enrich=-0.30  n=22
+       L3-R   adj_enrich=-0.30  n=40
+       L2-F   adj_enrich=-0.57  n=16
+       L2-E   adj_enrich=-0.73  n=31
+  -- ENCOURAGE
+       L2-E   adj_enrich=+0.56  n=29
+       L3-R   adj_enrich=+0.16  n=46
+       L2-R   adj_enrich=+0.04  n=132
+       L1-R   adj_enrich=-0.04  n=150
+       L2-K   adj_enrich=-0.06  n=60
+       L3-K   adj_enrich=-0.08  n=23
+       L2-F   adj_enrich=-0.20  n=19
+       L1-K   adj_enrich=-0.23  n=54
+       L1-E   adj_enrich=-0.70  n=40
+       L3-E   adj_enrich=-0.90  n=27
+  -- CRITICAL
+       L3-K   adj_enrich=+0.54  n=20
+       L2-R   adj_enrich=+0.16  n=117
+       L1-K   adj_enrich=+0.10  n=51
+       L3-E   adj_enrich=+0.06  n=27
+       L2-E   adj_enrich=+0.04  n=37
+       L3-R   adj_enrich=-0.02  n=38
+       L2-K   adj_enrich=-0.04  n=53
+       L2-F   adj_enrich=-0.23  n=20
+       L1-R   adj_enrich=-0.26  n=118
+       L1-E   adj_enrich=-1.42  n=34
+  -- MISLEADING
+       L2-F   adj_enrich=+0.83  n=21
+       L3-K   adj_enrich=+0.54  n=22
+       L2-R   adj_enrich=+0.43  n=136
+       L1-K   adj_enrich=+0.05  n=50
+       L2-K   adj_enrich=-0.01  n=63
+       L3-R   adj_enrich=-0.08  n=48
+       L1-R   adj_enrich=-0.67  n=138
+       L3-E   adj_enrich=-0.83  n=24
+       L1-E   adj_enrich=-1.10  n=41
+       L2-E   adj_enrich=-1.52  n=37
+  -- HEURISTIC
+       L2-E   adj_enrich=+0.74  n=36
+       L3-K   adj_enrich=+0.39  n=25
+       L2-K   adj_enrich=+0.16  n=57
+       L2-R   adj_enrich=+0.09  n=176
+       L1-R   adj_enrich=-0.01  n=204
+       L3-E   adj_enrich=-0.16  n=29
+       L3-R   adj_enrich=-0.45  n=46
+       L1-E   adj_enrich=-0.54  n=39
+       L1-K   adj_enrich=-0.59  n=49
+       L2-F   adj_enrich=-0.88  n=20

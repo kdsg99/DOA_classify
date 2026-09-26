@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "必须按比例链逐步换算：先把 42 baps 转为 yaps，再转为 daps，任何一步比例关系用错都会导致结果错误。"}

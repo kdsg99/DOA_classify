@@ -1,0 +1,1 @@
+{"type": "F1", "reason": "需准确知道 Eclipse JDT 中 IMethod#getElementName 的语义与用法，模型容易记错或误用 API。", "confidence": 0.72}

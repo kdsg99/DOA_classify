@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "核心是准确调出 Fibonacci 递推定义和 C++ 递归函数写法，同时必须满足“C++ 程序”和“使用递归”两条硬性要求。"}

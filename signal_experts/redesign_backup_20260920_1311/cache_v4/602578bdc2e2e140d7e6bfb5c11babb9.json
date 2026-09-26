@@ -1,0 +1,1 @@
+{"primary": "T3_PLAN", "ops": ["T3_PLAN", "T4_CONSTRAINT", "T2_CHAIN"], "why": "需要先设计并调度一个满足寄存器不可改、仅用ADD/MUL及流水线冒险规则的运算序列，再逐步推导出最小周期数。"}

@@ -1,0 +1,1 @@
+{"primary": "T8_EXPLORE", "ops": ["T8_EXPLORE", "T3_PLAN", "T4_CONSTRAINT", "T10_PRAGMA"], "why": "The question has no single correct answer, so the solver must generate and compare multiple intelligent-system approaches, decompose the solution into tasks, satisfy the evaluation rules' hard requirements, and tailor explanations for different professional audiences."}

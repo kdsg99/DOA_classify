@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "必须按月份分组对收盘价逐项比较，推导出每月最高/最低值，并严格按指定CSV格式逐月输出。"}

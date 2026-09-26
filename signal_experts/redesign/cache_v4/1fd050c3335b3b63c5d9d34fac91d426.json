@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "必须先求叉积模长，再用 |a×b|=|a||b|sinθ 推出 sinθ=1/2，并从可能角度中选出最小值。"}

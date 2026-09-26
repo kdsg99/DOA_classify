@@ -1,0 +1,1 @@
+{"primary": "T5_INTEGRATE", "ops": ["T5_INTEGRATE", "T4_CONSTRAINT"], "why": "需要从长转录中提取并整合关键信息，再按要求重新组织成要点，同时满足要点形式和不遗漏关键信息的硬性约束。"}

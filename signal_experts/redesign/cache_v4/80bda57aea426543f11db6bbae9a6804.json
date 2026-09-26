@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL"], "why": "The task only asks to identify the relevant standard physics formula for a continuous line-charge electric field, so the solver must recall Coulomb's law/integration formula rather than derive or compute the result."}

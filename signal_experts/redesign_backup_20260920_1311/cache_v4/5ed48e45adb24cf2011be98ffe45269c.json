@@ -1,0 +1,1 @@
+{"primary": "T4_CONSTRAINT", "ops": ["T4_CONSTRAINT", "T2_CHAIN"], "why": "必须同时满足 x*y=54、x≥2、y≥5 且 x,y 为整数，并通过枚举 54 的因子筛选出所有合法 x 值。"}

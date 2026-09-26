@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*-
+"""v4 连续化改造：数据体检（先看清楚再动手）"""
+import os, sys
+try: sys.stdout.reconfigure(encoding="utf-8")
+except Exception: pass
+import numpy as np, pandas as pd
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+df = pd.read_csv(os.path.join(HERE, "all_tasks_v4.csv"))
+print("shape:", df.shape)
+print("cols:", list(df.columns))
+print()
+print("strategies:", df.strategy.value_counts().to_dict())
+print("n datasets:", df.dataset_id.nunique(), "| n tasks:", df.groupby(['dataset_id','task_id']).ngroups)
+print()
+print("set values:", df['set'].value_counts(dropna=False).to_dict())
+print()
+print("plain_minmax:", df.plain_minmax.describe().to_dict())
+print("reask_minmax:", df.reask_minmax.describe().to_dict())
+print("delta:", df.delta.describe().to_dict())
+print("n_valid_scores:", df.n_valid_scores.value_counts(dropna=False).head(10).to_dict())
+print()
+sub = df[["dataset_id","task_id","strategy","set","plain_minmax","reask_minmax","delta","n_valid_scores"]].head(12)
+print(sub.to_string(index=False))
+print()
+# set 与 delta 的关系
+print(pd.crosstab(df['set'], df.delta.isna()))
+print(df.groupby('set').delta.agg(['count','mean','std','min','max']).to_string())
+print()
+# 每 (strategy, dataset, task) 的行数分布
+g = df.groupby(['strategy','dataset_id','task_id']).size()
+print("rows per (strategy,dataset,task):", g.value_counts().sort_index().to_dict())
+print()
+print("dataset sizes (task count):")
+print(df.drop_duplicates(['dataset_id','task_id']).dataset_id.value_counts().to_string())
+print()
+print("delta 与 high 的关系（逐行）：")
+print(df.groupby(['set']).apply(lambda x: pd.Series({'n': len(x), 'delta_mean': x.delta.mean()})).to_string())
+print()
+print("primary 标签分布（任务级）:")
+fl = df.drop_duplicates(['dataset_id','task_id'])
+print(fl.primary.value_counts(dropna=False).to_string())
+print()
+print("每个策略下每数据集的任务数（用于看族平衡）:")
+print(pd.crosstab(df.strategy, df.dataset_id).to_string())

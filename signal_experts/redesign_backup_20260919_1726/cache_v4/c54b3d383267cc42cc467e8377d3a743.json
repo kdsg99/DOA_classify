@@ -1,0 +1,1 @@
+{"primary": "T4_CONSTRAINT", "ops": ["T4_CONSTRAINT", "T5_INTEGRATE"], "why": "必须从描述和已有成员中推断出缺失的 setParameters 方法，并严格满足签名、返回类型及与其它 setter 互斥的硬性约束，否则代码不正确。"}

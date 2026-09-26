@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "Need recognize the largest 8-digit binary number is 11111111 and compute its base-10 value as 2^8-1=255."}

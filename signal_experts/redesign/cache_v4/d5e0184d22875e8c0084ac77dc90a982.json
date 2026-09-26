@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T9_REFRAME"], "why": "必须先将 HCL 坐标转换为标准颜色空间（如 RGB/Lab），再逐步计算并比对得出最接近的颜色名称。"}

@@ -1,0 +1,1 @@
+{"primary": "T7_RESIST", "ops": ["T7_RESIST", "T1_RECALL"], "why": "必须识破‘common ancestor’通常指向LCA的诱导，意识到最高共同祖先在带根二叉树中恒为根，只需返回根。"}

@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL"], "why": "This asks for a specific guideline-based factual recommendation as of 2020, so the solver must accurately retrieve the known first-line drug rather than derive or compute it."}

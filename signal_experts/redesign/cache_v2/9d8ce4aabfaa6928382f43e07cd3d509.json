@@ -1,0 +1,1 @@
+{"thinking_type": "L3-F", "reason": "任务要求按固定字段生成Midjourney提示词，并遵守多条显式格式约束（禁用词、标点、单行等），核心是约束满足与校验。", "confidence": 0.85}

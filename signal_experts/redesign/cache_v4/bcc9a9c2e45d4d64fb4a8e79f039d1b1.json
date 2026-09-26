@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "Each sentence explicitly provides or directly implies the country, capital, and language, so the main cognitive work is accurately extracting those facts and satisfying the required multi-field output constraints."}

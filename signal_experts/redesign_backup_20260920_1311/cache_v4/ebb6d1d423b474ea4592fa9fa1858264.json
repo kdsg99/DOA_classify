@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "需按对数性质联立推导出二次方程，并同时满足各对数的定义域约束，排除增根 x=-4。"}

@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT", "T5_INTEGRATE"], "why": "必须结合类中已有字段与方法上下文，推导缺失方法的实现逻辑，并写出符合 Java 语法与 API 约定的正确代码。"}

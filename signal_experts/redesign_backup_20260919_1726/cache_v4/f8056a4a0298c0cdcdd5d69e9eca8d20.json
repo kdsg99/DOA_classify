@@ -1,0 +1,1 @@
+{"primary": "T6_VERIFY", "ops": ["T6_VERIFY", "T1_RECALL"], "why": "The task requires checking the text against known facts about Austrian election law to detect the deliberately replaced word, so the core action is verification/error detection supported by factual recall."}

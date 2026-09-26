@@ -1,0 +1,1 @@
+{"primary": "T4_CONSTRAINT", "ops": ["T4_CONSTRAINT", "T2_CHAIN"], "why": "必须在不使用额外数据结构的硬性限制下，逐步推理并实现两数组元素的嵌套比较，才能正确找出公共元素。"}

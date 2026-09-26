@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "必须从每条评论的情感线索逐步推断出1-5的极性评分，并按JSON整数数组格式输出。"}

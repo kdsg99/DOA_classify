@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T1_RECALL", "T4_CONSTRAINT", "T5_INTEGRATE"], "why": "必须根据描述逐步推导出加载 cacerts、初始化 SSLContext 并构造 SSLConnectionSocketFactory 的代码逻辑链，同时准确调用 Java SSL API、满足方法签名与“不考虑系统属性”等硬性要求，并整合给定的类成员常量。"}

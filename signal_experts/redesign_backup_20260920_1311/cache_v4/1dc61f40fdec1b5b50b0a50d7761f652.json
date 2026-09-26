@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "Must convert each gear's rate to turns per second and solve the simultaneous integer-turn condition to find the least common time."}

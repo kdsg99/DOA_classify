@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT", "T5_INTEGRATE"], "why": "The task requires recalling the exact Eclipse API method (preSorting) from its Javadoc, formatting it with correct Java signature/modifiers, and integrating it into the provided code skeleton."}

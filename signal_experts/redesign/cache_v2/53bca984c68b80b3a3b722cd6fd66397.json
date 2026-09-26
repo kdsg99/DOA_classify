@@ -1,0 +1,1 @@
+{"thinking_type": "L1-R", "reason": "直接根据像素、RGB位数和帧率进行单位换算与算术计算，属短链直接求解", "confidence": 0.95}

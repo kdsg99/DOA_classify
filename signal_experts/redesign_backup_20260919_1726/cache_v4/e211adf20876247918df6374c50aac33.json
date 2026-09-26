@@ -1,0 +1,1 @@
+{"primary": "T5_INTEGRATE", "ops": ["T5_INTEGRATE", "T7_RESIST", "T2_CHAIN"], "why": "必须从两个问题中分别提取核心意图并合并比较，同时识破二者仅主题词重叠、实际提问范围不同的误导，才能正确判定是否重复。"}

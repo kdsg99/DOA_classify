@@ -1,0 +1,1 @@
+{"primary": "T6_VERIFY", "ops": ["T6_VERIFY"], "why": "The problem field is 'nan', so the solver must first detect that the question is missing or corrupted before any computation or recall can be validly performed."}

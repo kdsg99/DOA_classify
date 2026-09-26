@@ -1,0 +1,1 @@
+{"type": "F2", "reason": "需要识别奇数列并求和多步计算再取模，容易算错或跳步。", "confidence": null}

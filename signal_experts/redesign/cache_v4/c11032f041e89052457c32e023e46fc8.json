@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "必须逐步化简并合并根式项，随后按指定形式满足正整数与最小分母的硬性约束。"}

@@ -1,0 +1,1 @@
+{"type": "F1", "reason": "需要准确知道 about:neterror URI 的格式及 Android 中 Uri.encode 等 API 细节，模型容易记错或编造。", "confidence": 0.75}

@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "必须根据三角形不等式逐步推出第三边x满足2<x<4，并同时满足x为整数这一硬性约束，才能确定x=3。"}

@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "The required facts are explicitly stated in the texts and must be extracted as-is, then arranged into the specified field order and line format."}

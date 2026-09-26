@@ -1,0 +1,61 @@
+strategy,thinking_type,layer,n,n_families,value,thin
+PRESSURE,Reviewable repair,Metacognitive,4,2,14.925166295901525,True
+PRESSURE,Strict verification,Metacognitive,1,1,25.257036747973846,True
+PRESSURE,Long-context fidelity,Metacognitive,16,3,7.912590726197482,False
+PRESSURE,Trajectory sensitive,Metacognitive,2,2,25.276612271541524,True
+PRESSURE,Plain-answer fragile,Metacognitive,26,4,0.5677371031460015,False
+PRESSURE,Routine recognition,Structural,41,5,2.419092044990076,False
+PRESSURE,Full-reasoning dependent,Structural,166,6,-4.129169460980908,False
+PRESSURE,Format preserving,Structural,21,5,-1.1768437990539562,False
+PRESSURE,Style preserving,Structural,21,4,2.4751763674226632,False
+PRESSURE,Local repair,Execution,14,4,-4.10922040542875,False
+PRESSURE,Expression expansion,Execution,64,5,9.293198208110187,False
+PRESSURE,Execution-limited,Execution,32,6,-7.972336552379989,False
+CRITICAL,Reviewable repair,Metacognitive,6,2,-7.607412208104946,True
+CRITICAL,Strict verification,Metacognitive,2,2,26.97770182509609,True
+CRITICAL,Long-context fidelity,Metacognitive,17,4,25.756381478826555,False
+CRITICAL,Trajectory sensitive,Metacognitive,5,2,18.067844499788276,True
+CRITICAL,Plain-answer fragile,Metacognitive,26,4,7.672948991239627,False
+CRITICAL,Routine recognition,Structural,42,5,17.26714002826165,False
+CRITICAL,Full-reasoning dependent,Structural,222,6,-10.196030322892,False
+CRITICAL,Format preserving,Structural,28,5,-0.14137359877059133,False
+CRITICAL,Style preserving,Structural,29,5,18.28061380382831,False
+CRITICAL,Local repair,Execution,13,5,5.77608575346126,False
+CRITICAL,Expression expansion,Execution,84,5,10.218479112831062,False
+CRITICAL,Execution-limited,Execution,50,6,-13.146543222719712,False
+ENCOURAGE,Reviewable repair,Metacognitive,6,2,-4.145791100734246,True
+ENCOURAGE,Strict verification,Metacognitive,1,1,8.651360051842815,True
+ENCOURAGE,Long-context fidelity,Metacognitive,21,4,17.149012169383845,False
+ENCOURAGE,Trajectory sensitive,Metacognitive,6,2,21.310230464537337,True
+ENCOURAGE,Plain-answer fragile,Metacognitive,27,4,16.36852724746373,False
+ENCOURAGE,Routine recognition,Structural,51,5,12.327991113686867,False
+ENCOURAGE,Full-reasoning dependent,Structural,265,6,-9.162967067191534,False
+ENCOURAGE,Format preserving,Structural,25,5,-0.5485127540166355,False
+ENCOURAGE,Style preserving,Structural,28,4,11.82916151744465,False
+ENCOURAGE,Local repair,Execution,14,5,-2.530299445382636,False
+ENCOURAGE,Expression expansion,Execution,80,5,18.22499345589691,False
+ENCOURAGE,Execution-limited,Execution,65,6,-13.143657682152865,False
+MISLEADING,Reviewable repair,Metacognitive,5,2,-4.731125023122078,True
+MISLEADING,Strict verification,Metacognitive,2,2,-6.452234289378328,True
+MISLEADING,Long-context fidelity,Metacognitive,22,4,24.402249033986276,False
+MISLEADING,Trajectory sensitive,Metacognitive,5,2,-0.28797021769403697,True
+MISLEADING,Plain-answer fragile,Metacognitive,27,4,13.533863297177984,False
+MISLEADING,Routine recognition,Structural,44,5,13.831373895198624,False
+MISLEADING,Full-reasoning dependent,Structural,265,6,-5.502776201555614,False
+MISLEADING,Format preserving,Structural,27,5,-0.8808219890574319,False
+MISLEADING,Style preserving,Structural,26,4,14.333553125658334,False
+MISLEADING,Local repair,Execution,17,5,6.418295528793491,False
+MISLEADING,Expression expansion,Execution,91,5,7.421621335375661,False
+MISLEADING,Execution-limited,Execution,59,6,-19.457243288750785,False
+HEURISTIC,Reviewable repair,Metacognitive,6,2,0.9040428318299014,True
+HEURISTIC,Strict verification,Metacognitive,2,1,-16.984323098050858,True
+HEURISTIC,Long-context fidelity,Metacognitive,20,4,23.36821031321845,False
+HEURISTIC,Trajectory sensitive,Metacognitive,4,2,19.519132858562777,True
+HEURISTIC,Plain-answer fragile,Metacognitive,32,5,14.735800164132112,False
+HEURISTIC,Routine recognition,Structural,44,5,9.243186915127968,False
+HEURISTIC,Full-reasoning dependent,Structural,333,6,-9.253866171051303,False
+HEURISTIC,Format preserving,Structural,24,5,-1.1977939617639344,False
+HEURISTIC,Style preserving,Structural,29,5,15.937492606207439,False
+HEURISTIC,Local repair,Execution,16,5,-5.70654620897394,False
+HEURISTIC,Expression expansion,Execution,90,5,24.448698385660887,False
+HEURISTIC,Execution-limited,Execution,90,6,-9.512478765720273,False

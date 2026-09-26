@@ -1,0 +1,1 @@
+{"type": "F3", "reason": "需实现 setter 与其他 setter 互斥的显式约束，容易漏掉清空内容字段或返回 this 等要求。", "confidence": 0.65}

@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "需要把 A 为 B 之父、B 为 C 之父这两段关系组合起来，推导出 A 是 C 的祖父。"}

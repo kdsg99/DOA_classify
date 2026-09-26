@@ -1,0 +1,1 @@
+{"type": "F2", "reason": "需要分解质因数并按 gcd/lcm 条件分配指数，再结合 a<b 计数，属于多步数论推导，容易漏算或算错。", "confidence": null}

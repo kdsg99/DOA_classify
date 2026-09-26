@@ -1,0 +1,1 @@
+{"primary": "T3_PLAN", "ops": ["T3_PLAN", "T4_CONSTRAINT", "T2_CHAIN"], "why": "需要先规划满足寄存器、指令格式和流水线停顿约束的最优 ADD/MUL 操作顺序，再逐步计算总周期数。"}

@@ -1,0 +1,1 @@
+{"type": "F4", "reason": "题面存在字段 fMethodName 诱导直接返回，但描述要求通过 IMethod#getElementName 获取，易被想当然带偏。", "confidence": 0.7}

@@ -1,0 +1,1 @@
+{"primary": "T8_EXPLORE", "ops": ["T8_EXPLORE", "T4_CONSTRAINT", "T6_VERIFY", "T3_PLAN"], "why": "Designing a medium-level sudoku has no single answer, so you must generate/compare options while satisfying hard Sudoku and difficulty constraints, planning the construction steps, and verifying uniqueness/validity."}

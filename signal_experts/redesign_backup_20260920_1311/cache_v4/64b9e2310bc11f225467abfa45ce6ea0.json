@@ -1,0 +1,1 @@
+{"primary": "T8_EXPLORE", "ops": ["T8_EXPLORE", "T4_CONSTRAINT", "T6_VERIFY", "T3_PLAN"], "why": "Designing a medium-level sudoku has no single correct answer, so it requires generating a valid puzzle while satisfying hard sudoku/uniqueness/difficulty constraints, planning the construction steps, and verifying that the final puzzle is valid and appropriately hard."}

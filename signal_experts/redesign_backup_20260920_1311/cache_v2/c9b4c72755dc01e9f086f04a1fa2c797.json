@@ -1,0 +1,1 @@
+{"thinking_type": "L2-R", "reason": "国际象棋一步杀需解析局面并推理候选着法是否将死，属于多步逻辑求解", "confidence": 0.9}

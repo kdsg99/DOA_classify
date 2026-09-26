@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T9_REFRAME"], "why": "Must convert 629_10 into base 7 and base 8 representations step by step, then compare the resulting digit sets to count common digits."}

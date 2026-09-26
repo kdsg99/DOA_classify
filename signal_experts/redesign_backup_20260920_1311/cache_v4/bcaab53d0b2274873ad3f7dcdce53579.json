@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL"], "why": "识别 ASCII 图像中的数字形状只需直接匹配已知类别标签，无需多步推导或复杂加工。"}

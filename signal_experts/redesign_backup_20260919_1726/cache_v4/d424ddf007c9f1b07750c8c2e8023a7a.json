@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "The solution requires converting the modulus condition into a^2+b^2≤25 and systematically counting integer pairs step by step."}

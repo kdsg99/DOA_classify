@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T5_INTEGRATE", "T9_REFRAME"], "why": "Need to formalize the natural-language question into a SQL query, combine departments and degree_programs tables, and perform a multi-step count/group/sort computation to find the department with the most degrees."}

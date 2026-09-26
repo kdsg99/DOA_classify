@@ -1,0 +1,1 @@
+{"primary": "T3_PLAN", "ops": ["T3_PLAN", "T5_INTEGRATE", "T4_CONSTRAINT"], "why": "需要把遍历目录、筛选文本、分词计数、跨文件合并统计、排序取前五拆成有序子任务，并同时满足所有文本文件与top-5等硬性要求。"}

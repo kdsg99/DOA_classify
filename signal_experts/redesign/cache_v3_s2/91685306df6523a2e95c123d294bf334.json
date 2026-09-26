@@ -1,0 +1,1 @@
+{"type": "F2", "reason": "需要多步数字计算（像素数×RGB位数×帧率并换算为Mbits/s），容易算错或单位换算出错。", "confidence": null}

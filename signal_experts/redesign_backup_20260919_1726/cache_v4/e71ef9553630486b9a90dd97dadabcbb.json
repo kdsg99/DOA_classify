@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "必须准确调出 LaTeX 中由 FEN 绘制棋盘的包与命令，并确保代码包含所有必要的包和命令才能正确编译。"}

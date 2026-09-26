@@ -1,0 +1,1 @@
+{"primary": "T6_VERIFY", "ops": ["T6_VERIFY"], "why": "The problem field is 'nan', so the solver must first detect that the actual question is missing and the task cannot be solved without clarification, rather than inventing a problem."}

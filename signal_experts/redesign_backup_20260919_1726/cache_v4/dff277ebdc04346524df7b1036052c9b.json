@@ -1,0 +1,1 @@
+{"primary": "T8_EXPLORE", "ops": ["T8_EXPLORE", "T5_INTEGRATE", "T3_PLAN"], "why": "This is an open-ended case analysis: the solver must synthesize scattered case details, generate plausible answers/recommendations without a unique solution, and organize a multi-part response."}

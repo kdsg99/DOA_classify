@@ -1,0 +1,66 @@
+共享坐标上限 vmax = 37.0 
+
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_primary_PRESSURE.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_primary_ENCOURAGE.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_primary_CRITICAL.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_primary_MISLEADING.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_primary_HEURISTIC.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_all_primary.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_multilabel_PRESSURE.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_multilabel_ENCOURAGE.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_multilabel_CRITICAL.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_multilabel_MISLEADING.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_multilabel_HEURISTIC.png
+saved C:\Users\kl001\.nanobot\DOA\signal_experts\redesign\fig_v4scatter\v4scatter_all_multilabel.png
+
+=== primary 口径：各策略 net = high_share - low_share（正=优于 plain）===
+
+[PRESSURE] 目标动作 链式推演
+   + 约束对齐           net= +29.0  (high 33.3 / low 4.3, n=10)
+   + 信息整合           net= +21.9  (high 31.1 / low 9.2, n=20)
+   + 换表征            net= +15.5  (high 23.8 / low 8.3, n=7)
+   - 长程一致           net=  +0.0  (high 0.0 / low 0.0, n=0)
+   - 抗扰判断           net= +10.1  (high 25.0 / low 14.9, n=23)
+   - 检索回忆           net= +10.4  (high 23.8 / low 13.4, n=83)
+
+[ENCOURAGE] 目标动作 探索发散、长程一致
+   + 抗扰判断           net= +12.0  (high 26.9 / low 14.9, n=24)
+   + 分解规划           net=  +1.8  (high 18.2 / low 16.4, n=15)
+   + 检索回忆           net=  +0.4  (high 20.7 / low 20.4, n=101)
+   - 信息整合           net=  -9.9  (high 17.8 / low 27.7, n=26)
+   - 校验纠错           net=  -7.6  (high 14.8 / low 22.4, n=25)
+   - 语用改写           net=  -6.0  (high 14.6 / low 20.5, n=22)
+
+[CRITICAL] 目标动作 校验纠错
+   + 换表征            net= +20.8  (high 33.3 / low 12.5, n=10)
+   + 校验纠错           net= +12.8  (high 25.9 / low 13.2, n=24)  <= 目标
+   + 信息整合           net= +12.1  (high 24.4 / low 12.3, n=19)
+   - 语用改写           net=  -2.5  (high 20.8 / low 23.3, n=27)
+   - 约束对齐           net=  -0.9  (high 20.8 / low 21.7, n=15)
+   - 长程一致           net=  +0.0  (high 0.0 / low 0.0, n=0)
+
+[MISLEADING] 目标动作 抗扰判断
+   + 长程一致           net=  +0.0  (high 0.0 / low 0.0, n=0)
+   + 校验纠错           net=  -1.5  (high 22.2 / low 23.7, n=30)
+   + 换表征            net=  -2.4  (high 14.3 / low 16.7, n=7)
+   - 分解规划           net= -25.3  (high 4.5 / low 29.9, n=21)
+   - 约束对齐           net= -19.9  (high 8.3 / low 28.3, n=15)
+   - 抗扰判断           net= -17.9  (high 13.5 / low 31.3, n=28)  <= 目标
+
+[HEURISTIC] 目标动作 探索发散、换表征
+   + 分解规划           net=  +3.3  (high 22.7 / low 19.4, n=18)
+   + 长程一致           net=  +0.0  (high 0.0 / low 0.0, n=0)
+   + 探索发散           net=  -1.6  (high 20.7 / low 22.3, n=81)  <= 目标
+   - 换表征            net= -28.6  (high 4.8 / low 33.3, n=9)  <= 目标
+   - 校验纠错           net= -14.7  (high 13.0 / low 27.6, n=28)
+   - 链式推演           net= -14.1  (high 18.0 / low 32.2, n=360)
+
+[PRESSURE] 目标动作平均 net = +12.8
+
+[ENCOURAGE] 目标动作平均 net = -0.8
+
+[CRITICAL] 目标动作平均 net = +12.8
+
+[MISLEADING] 目标动作平均 net = -17.9
+
+[HEURISTIC] 目标动作平均 net = -15.1

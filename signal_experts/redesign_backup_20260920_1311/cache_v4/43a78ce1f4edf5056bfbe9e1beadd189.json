@@ -1,0 +1,1 @@
+{"primary": "T9_REFRAME", "ops": ["T9_REFRAME", "T4_CONSTRAINT"], "why": "必须将ASCII字符网格转换为视觉图像以识别数字类别，并满足指令中可能隐含的置信度阈值等硬性输出约束。"}

@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "The target method is a standard Apache HttpCore EntityBuilder.setParameters implementation that must be recalled exactly (setting parameters, setting content type to APPLICATION_FORM_URLENCODED, and returning this) while satisfying the method signature and mutual-exclusivity constraints."}

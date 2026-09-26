@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN"], "why": "必须把 gcd 和 lcm 转化为素数指数上的 min/max 条件，再逐步推导各素数指数分配并利用 a<b 计数。"}

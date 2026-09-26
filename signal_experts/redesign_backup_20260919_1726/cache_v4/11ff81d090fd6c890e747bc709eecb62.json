@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T1_RECALL", "T4_CONSTRAINT"], "why": "需要回忆 RGB 每像素 24 bit 的常见约定，并逐步计算每帧、每秒的数据位数，最后按 Mbits/s 和三位有效数字给出结果。"}

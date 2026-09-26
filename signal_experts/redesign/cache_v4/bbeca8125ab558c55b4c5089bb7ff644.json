@@ -1,0 +1,1 @@
+{"primary": "T3_PLAN", "ops": ["T3_PLAN", "T1_RECALL", "T4_CONSTRAINT", "T6_VERIFY"], "why": "必须规划多步骤安装与运行流程，回忆 AirSim/Win11/PX4/MAVLink 配置知识，满足 Win11 和给定 pymavlink 代码的硬性运行约束，并检查代码中缺失的定义与消息参数。"}

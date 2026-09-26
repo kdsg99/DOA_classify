@@ -1,0 +1,1 @@
+{"primary": "T6_VERIFY", "ops": ["T6_VERIFY", "T4_CONSTRAINT", "T2_CHAIN", "T3_PLAN"], "why": "代码中存在多处语法错误、SimPy API 误用和未完成逻辑，必须先检查并修正错误，同时满足 Python/SimPy 约束，并逐步推导补全仿真流程。"}

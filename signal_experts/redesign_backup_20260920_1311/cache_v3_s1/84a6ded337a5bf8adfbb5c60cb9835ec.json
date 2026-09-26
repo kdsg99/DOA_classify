@@ -1,0 +1,1 @@
+{"type": "R-V", "reason": "金融衍生品定价需在Black-Scholes框架下多步推导并计算唯一价格，属推理-精确可验。", "confidence": 0.96}

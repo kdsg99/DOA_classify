@@ -1,0 +1,1 @@
+{"thinking_type": "L2-R", "reason": "需要基于Black-Scholes框架进行多步随机微分方程与风险中性定价推导才能得到唯一价格", "confidence": 0.95}

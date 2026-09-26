@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT", "T1_RECALL"], "why": "需要按顺序构建 SSLContext（加载 cacerts、初始化 TrustManagerFactory、获取 SSLSocketFactory）并满足不使用系统属性的硬性约束，同时调用正确的 JSSE/HttpClient API。"}

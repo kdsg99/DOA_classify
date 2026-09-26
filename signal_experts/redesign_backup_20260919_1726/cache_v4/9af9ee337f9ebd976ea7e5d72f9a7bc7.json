@@ -1,0 +1,1 @@
+{"primary": "T6_VERIFY", "ops": ["T6_VERIFY", "T8_EXPLORE", "T7_RESIST", "T4_CONSTRAINT"], "why": "The task requires auditing a gene list full of factual errors, an incomplete entry, and a dubious premise, then generating corrected/alternative gene choices with human-animal differences while satisfying multiple explicit content and reference requirements."}

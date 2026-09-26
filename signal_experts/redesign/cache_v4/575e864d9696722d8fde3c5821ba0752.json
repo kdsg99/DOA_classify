@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "必须准确回忆 GitHub Actions 工作流的 YAML 语法与 CI/CD 特性，并严格满足工作流字段/格式约束，否则示例无效。"}

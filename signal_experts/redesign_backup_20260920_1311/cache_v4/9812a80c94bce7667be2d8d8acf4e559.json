@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T2_CHAIN", "T4_CONSTRAINT"], "why": "The task requires recalling the named Boyer-Moore Voting Algorithm, correctly translating its sequential candidate/count updates into code, and satisfying the hard constraints of writing a function for an integer array using that specific algorithm."}

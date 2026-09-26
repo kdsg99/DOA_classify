@@ -1,0 +1,1 @@
+{"type": "F2", "reason": "需要根据递归/迭代和权威域信息多步追踪 DNS 解析链，容易跳步或推错。", "confidence": null}

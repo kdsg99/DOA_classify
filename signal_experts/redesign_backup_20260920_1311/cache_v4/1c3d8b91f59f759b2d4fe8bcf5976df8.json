@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "需要用同余条件逐步推导并同时满足所有余数与年龄上限约束，直到唯一确定年龄。"}

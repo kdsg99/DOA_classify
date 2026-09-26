@@ -1,0 +1,1 @@
+{"type": "F3", "reason": "补全 setParameters 方法时需满足多条显式互斥约束（清空 text/binary/stream/serializable/file 等），容易漏项或漏清字段。", "confidence": null}

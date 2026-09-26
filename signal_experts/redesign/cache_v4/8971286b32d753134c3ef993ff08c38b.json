@@ -1,0 +1,1 @@
+{"primary": "T3_PLAN", "ops": ["T3_PLAN", "T2_CHAIN", "T1_RECALL", "T4_CONSTRAINT"], "why": "To reorder chemistry topics into a prerequisite sequence, the solver must recall each topic's content/prerequisites, plan a global ordering that satisfies textbook norms and build-on rules, and ensure the resulting dependency chain is logically valid."}

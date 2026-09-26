@@ -1,0 +1,1 @@
+{"type": "R-V", "reason": "识别 ASCII 表示的 MNIST 手写数字，答案唯一，靠模式识别推理判断", "confidence": 0.95}

@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "The named entities are explicitly stated in the article, so the main work is accurately extracting and classifying them while satisfying the required JSON dictionary structure and entity-type grouping rules."}

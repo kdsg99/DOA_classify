@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "需要从图像逐步提取振幅、周期和竖直平移，推出相位并解出 c，同时满足 a,b,c,d 为正且 c 取最小正值的硬约束。"}

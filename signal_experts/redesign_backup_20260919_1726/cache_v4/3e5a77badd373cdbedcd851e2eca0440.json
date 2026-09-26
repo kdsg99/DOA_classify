@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL", "T4_CONSTRAINT"], "why": "The description explicitly states the default implementation does nothing, so the solver must recall the no-op behavior and format it as a valid Java method matching the class context."}

@@ -1,0 +1,1 @@
+{"type": "F1", "reason": "该代码补全依赖 Java JSSE 与 Apache HttpClient 中 SSL 工厂的具体实现细节，模型容易因库 API 不熟而写错或编造。", "confidence": 0.82}

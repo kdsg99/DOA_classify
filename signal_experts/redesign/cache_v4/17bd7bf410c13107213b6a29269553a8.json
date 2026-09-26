@@ -1,0 +1,1 @@
+{"primary": "T9_REFRAME", "ops": ["T9_REFRAME", "T1_RECALL"], "why": "必须将ASCII字符转换回视觉图像表示，再根据已知数字形状识别出对应类别。"}

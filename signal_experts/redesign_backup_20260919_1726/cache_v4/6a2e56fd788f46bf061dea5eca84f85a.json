@@ -1,0 +1,1 @@
+{"primary": "T9_REFRAME", "ops": ["T9_REFRAME", "T2_CHAIN"], "why": "需通过三角代换 x=sin α, y=sin β 将原式化为 sin(α+β)，再推导其最大值并验证可取到；核心是换视角，同时需要完成必要的推导链。"}

@@ -1,0 +1,1 @@
+{"type": "F3", "reason": "任务要求补全包含多个字段及对应 getter/setter/list 访问器的代码，容易漏掉某些方法或写错类型/格式。", "confidence": 0.8}

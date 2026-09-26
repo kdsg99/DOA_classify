@@ -1,0 +1,1 @@
+{"primary": "T6_VERIFY", "ops": ["T6_VERIFY", "T4_CONSTRAINT"], "why": "必须对照源文和译文找出不一致之处，并将其归类到题目给定的硬性错误类别之一。"}

@@ -1,0 +1,1 @@
+{"primary": "T6_VERIFY", "ops": ["T6_VERIFY"], "why": "The problem and instruction fields are 'nan', so the solver must first detect that the input is incomplete and cannot be solved as given."}

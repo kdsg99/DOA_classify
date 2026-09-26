@@ -1,0 +1,1 @@
+{"primary": "T9_REFRAME", "ops": ["T9_REFRAME", "T1_RECALL"], "why": "ASCII 文本需先被心理转换成二维视觉图形，再匹配已知数字形状才能识别为 9。"}

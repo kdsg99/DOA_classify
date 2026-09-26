@@ -1,0 +1,1 @@
+{"primary": "T5_INTEGRATE", "ops": ["T5_INTEGRATE", "T4_CONSTRAINT"], "why": "必须从每个方程分散的各术语中识别并收集变量符号，合并去重，同时满足每方程唯一变量和逐条输出的硬性要求。"}

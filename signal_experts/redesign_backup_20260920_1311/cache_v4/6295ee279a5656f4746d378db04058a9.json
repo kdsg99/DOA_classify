@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "必须先通过向量叉积和代入点逐步推导出平面方程，同时严格满足 A>0、整数系数且 gcd=1 的硬性格式要求。"}

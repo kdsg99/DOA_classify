@@ -1,0 +1,110 @@
+====================================================================================
+V2 THINKING-TYPE SIGNATURE  (12 types = 3 Levels x 4 Targets)
+====================================================================================
+enrich_raw = global  log2(p_high/p_low)        (positive => strategy is GOOD at the type)
+enrich_adj = dataset-controlled log2 ratio      (strategy-specific signature)
+
+### PRESSURE   (high=202, low=206)
+type                              high   low     raw     adj
+L1-K Knowledge Retrieval            27    18   +0.59   +0.70
+L1-F Format Transformation           2     0   +1.58   +0.46
+L3-E Style & Persona Fidelity       11    11   +0.03   +0.40
+L3-K Factual Verification           13     9   +0.51   +0.32
+L2-R Multi-Step Derivation          39    43   -0.11   +0.21
+L3-F Constraint Check & Repair       3     2   +0.43   +0.06
+L1-R Direct Computation             32    38   -0.21   +0.03
+L2-K Knowledge Synthesis            26    22   +0.26   +0.00
+L1-E Content Generation             13    12   +0.13   -0.04
+L3-R Process Control                16    24   -0.53   -0.25
+L2-F Structured Output               6    10   -0.63   -0.28
+L2-E Discourse Organization         14    17   -0.24   -1.07
+
+### ENCOURAGE   (high=170, low=419)
+type                              high   low     raw     adj
+L2-R Multi-Step Derivation          36    96   -0.11   +0.25
+L3-F Constraint Check & Repair       3     4   +0.64   +0.15
+L2-E Discourse Organization         12    17   +0.73   +0.10
+L3-K Factual Verification            9    14   +0.59   +0.10
+L3-R Process Control                20    26   +0.87   +0.09
+L1-K Knowledge Retrieval            23    31   +0.83   +0.06
+L1-R Direct Computation             27   123   -0.87   -0.22
+L1-F Format Transformation           0     2   -0.97   -0.26
+L3-E Style & Persona Fidelity        8    19   +0.05   -0.27
+L2-F Structured Output               5    14   -0.16   -0.37
+L2-K Knowledge Synthesis            19    41   +0.18   -0.44
+L1-E Content Generation              8    32   -0.64   -0.75
+
+### CRITICAL   (high=192, low=332)
+type                              high   low     raw     adj
+L3-K Factual Verification           14     6   +1.76   +0.62
+L3-E Style & Persona Fidelity       13    14   +0.62   +0.59
+L1-K Knowledge Retrieval            27    24   +0.91   +0.23
+L2-R Multi-Step Derivation          40    77   -0.15   +0.12
+L1-F Format Transformation           2     1   +0.94   +0.10
+L3-R Process Control                16    22   +0.31   -0.06
+L2-K Knowledge Synthesis            24    29   +0.49   -0.10
+L3-F Constraint Check & Repair       2     4   -0.15   -0.23
+L1-R Direct Computation             28    90   -0.87   -0.28
+L2-F Structured Output               5    15   -0.69   -0.54
+L2-E Discourse Organization         14    23   +0.07   -0.57
+L1-E Content Generation              7    27   -1.06   -1.06
+
+### MISLEADING   (high=132, low=458)
+type                              high   low     raw     adj
+L2-R Multi-Step Derivation          38    98   +0.42   +0.74
+L3-E Style & Persona Fidelity        8    16   +0.72   +0.49
+L3-K Factual Verification           11    11   +1.61   +0.41
+L2-K Knowledge Synthesis            16    47   +0.23   -0.06
+L3-R Process Control                12    36   +0.20   -0.22
+L1-K Knowledge Retrieval            17    33   +0.80   -0.23
+L2-F Structured Output               5    16   +0.10   -0.26
+L3-F Constraint Check & Repair       1     6   -0.53   -0.32
+L1-F Format Transformation           0     3   -1.21   -0.34
+L1-R Direct Computation             13   125   -1.43   -0.79
+L2-E Discourse Organization          7    30   -0.28   -0.98
+L1-E Content Generation              4    37   -1.28   -1.09
+
+### HEURISTIC   (high=150, low=540)
+type                              high   low     raw     adj
+L2-R Multi-Step Derivation          36   140   -0.11   +0.55
+L2-E Discourse Organization         14    22   +1.10   +0.11
+L2-K Knowledge Synthesis            20    37   +0.91   +0.07
+L3-K Factual Verification           11    14   +1.34   +0.07
+L1-R Direct Computation             25   179   -0.97   -0.07
+L1-F Format Transformation           0     2   -0.80   -0.22
+L2-F Structured Output               4    16   -0.13   -0.28
+L1-E Content Generation              8    31   -0.10   -0.32
+L3-E Style & Persona Fidelity        7    22   +0.18   -0.33
+L3-F Constraint Check & Repair       1     6   -0.47   -0.41
+L3-R Process Control                11    35   +0.17   -0.43
+L1-K Knowledge Retrieval            13    36   +0.36   -0.56
+
+====================================================================================
+GOAL 1  —  within-strategy high vs low separation
+====================================================================================
+strategy      KL(high||low)   level shares in HIGH   :   level shares in LOW
+PRESSURE              0.263   L1/L2/L3 = 0.37/0.42/0.21   :   0.33/0.45/0.22
+ENCOURAGE             0.154   L1/L2/L3 = 0.34/0.42/0.24   :   0.45/0.40/0.15
+CRITICAL              0.216   L1/L2/L3 = 0.33/0.43/0.23   :   0.43/0.43/0.14
+MISLEADING            0.272   L1/L2/L3 = 0.26/0.50/0.24   :   0.43/0.42/0.15
+HEURISTIC             0.198   L1/L2/L3 = 0.31/0.49/0.20   :   0.46/0.40/0.14
+
+====================================================================================
+GOAL 2  —  between-strategy difference of HIGH-set type profile (KL divergence)
+====================================================================================
+                PRESSURE   ENCOURAGE    CRITICAL  MISLEADING   HEURISTIC
+PRESSURE           0.000       0.236       0.019       0.298       0.253
+ENCOURAGE          0.035       0.000       0.041       0.074       0.057
+CRITICAL           0.017       0.253       0.000       0.272       0.270
+MISLEADING         0.092       0.071       0.059       0.000       0.077
+HEURISTIC          0.049       0.051       0.054       0.083       0.000
+
+Signature similarity (cosine, adj-enrichment, mean-centred); lower = more distinct
+                PRESSURE   ENCOURAGE    CRITICAL  MISLEADING   HEURISTIC
+PRESSURE            1.00       -0.02        0.63        0.52       -0.23
+ENCOURAGE          -0.02        1.00        0.48        0.41        0.26
+CRITICAL            0.63        0.48        1.00        0.81        0.09
+MISLEADING          0.52        0.41        0.81        1.00        0.34
+HEURISTIC          -0.23        0.26        0.09        0.34        1.00
+
+saved plots + csv in C:\Users\kl001\.nanobot\DOA\signal_experts\redesign

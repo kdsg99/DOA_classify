@@ -1,0 +1,48 @@
+type-level KL(high||low) per strategy:
+  PRESSURE     0.263
+  ENCOURAGE    0.154
+  CRITICAL     0.216
+  MISLEADING   0.272
+  HEURISTIC    0.198
+
+target aggregated enrichment (raw):
+key            E     F     K     R
+strategy                          
+PRESSURE   -0.04 -0.09  0.45 -0.24
+ENCOURAGE   0.02 -0.02  0.54 -0.26
+CRITICAL   -0.12 -0.33  0.91 -0.38
+MISLEADING -0.32 -0.24  0.73 -0.24
+HEURISTIC   0.46 -0.37  0.84 -0.45
+
+level aggregated enrichment (raw):
+key           L1    L2    L3
+strategy                    
+PRESSURE    0.15 -0.08 -0.07
+ENCOURAGE  -0.39  0.08  0.63
+CRITICAL   -0.35 -0.00  0.74
+MISLEADING -0.74  0.26  0.67
+HEURISTIC  -0.57  0.31  0.47
+
+high/low sizes:
+set         high  low
+strategy             
+PRESSURE     202  206
+ENCOURAGE    170  419
+CRITICAL     192  332
+MISLEADING   132  458
+HEURISTIC    150  540
+
+thinking type overall counts (unique-task level):
+thinking_type
+L1-R    197
+L2-R    195
+L2-K     60
+L1-K     49
+L3-R     39
+L2-E     37
+L1-E     31
+L3-K     27
+L3-E     25
+L2-F     13
+L3-F      7
+L1-F      3

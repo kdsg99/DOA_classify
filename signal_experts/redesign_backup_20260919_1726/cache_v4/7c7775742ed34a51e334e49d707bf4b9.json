@@ -1,0 +1,1 @@
+{"primary": "T2_CHAIN", "ops": ["T2_CHAIN", "T4_CONSTRAINT"], "why": "必须从着法序列重建棋局并逐步推算候选着法，同时满足合法、将军且将死的硬性约束。"}

@@ -1,0 +1,1 @@
+{"primary": "T1_RECALL", "ops": ["T1_RECALL"], "why": "This asks for an existing factual financial figure, so the solver only needs to retrieve the current market cap accurately rather than derive or transform it."}
